@@ -1,0 +1,13 @@
+module ChatApp
+{
+  interface Interfaz
+  {
+	
+    string connection(in string userName);
+    void newMessages(in string roomName, in string message);
+    string getMessages(in string roomName);
+    string listUsers(in string roomName);
+    void disconnect(in string userName, in string roomName);
+
+  };
+};
